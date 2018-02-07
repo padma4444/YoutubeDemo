@@ -1,0 +1,28 @@
+package BasicProCode;
+
+public class Method {
+
+	public static void main(java.lang.String[] args) {
+		// TODO Auto-generated method stub
+     MyFirstmethod(30,50);
+     Method M=new Method();
+     M.MysecondMethod("Madhu", "45, Westfield road,RM9 5BH");
+     M.num(50,10);
+	}
+	
+	public static void MyFirstmethod(int x, int y)
+	{
+		int a=20;
+		System.out.println(a+" "+x+" "+y);
+	}
+	public void MysecondMethod(java.lang.String name, java.lang.String address) {
+		System.out.println(name);
+		System.out.println(address);
+	}
+	public int num(int b, int c)
+	{
+		System.out.println(b+c);
+		return b+c;
+		
+	}
+}

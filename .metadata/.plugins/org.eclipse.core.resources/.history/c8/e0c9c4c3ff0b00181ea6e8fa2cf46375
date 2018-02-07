@@ -1,0 +1,38 @@
+package Cucumber;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class FaceBookSignIn {
+
+	@Given("^Open the Facebook page with correct Url$")
+	public void Iwould_like_to_navigate_to_Url() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   System.out.println("Navigate to Url");
+	}
+
+	@Then("^click sign Up Button$")
+	public void click_sign_Up_Button() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	  System.out.println("Enter Sign Up Button");
+	}
+
+	@When("^fill all fields with correct data$")
+	public void fill_all_fields_with_correct_data() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   System.out.println("Enter Valid Values");
+	}
+
+	@Then("^click sign In Button$")
+	public void click_sign_In_Button() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    System.out.println("Click SignUp Button");
+	}
+	@When("^fill all fields with different data$")
+	public void fill_all_fields_with_different_data() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+}

@@ -1,0 +1,16 @@
+package BasicProCode;
+
+public class Classes_Objects {
+
+	public static int num;
+	public java.lang.String name;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      int a;
+	}
+	
+	
+
+}
+
+

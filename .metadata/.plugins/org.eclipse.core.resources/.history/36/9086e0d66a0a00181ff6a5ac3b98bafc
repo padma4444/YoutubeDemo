@@ -1,0 +1,20 @@
+package BasicProCode;
+
+public class forloop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ int a=67;
+ for(int b=0; b<=a;b++)
+ {
+	 System.out.println(b);
+ }
+ int x[]=new int[] {56,65,64,23,232,67,768,678};
+ 
+for (int i : x) {
+	System.out.println(i);
+}
+ 
+	}
+
+}

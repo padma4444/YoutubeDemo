@@ -1,0 +1,15 @@
+package BasicProCode;
+
+public class FinalKeyWord {
+
+	 public final int num;
+	 public FinalKeyWord() {
+		// TODO Auto-generated constructor stub
+		 num=10;
+	}
+	 public static final void name()
+	 {
+		 System.out.println("My Name is harika");
+	 }
+	 
+}

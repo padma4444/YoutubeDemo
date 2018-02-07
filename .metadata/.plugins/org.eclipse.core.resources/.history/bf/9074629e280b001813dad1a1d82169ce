@@ -1,0 +1,18 @@
+package BasicProCode;
+
+public class AnotherClass {
+
+	public static void main(java.lang.String[] args) {
+		// TODO Auto-generated method stub
+     Classes_Objects obj=new Classes_Objects();
+     obj.name="Harini";
+     obj.num=56;
+     System.out.println(obj.name+" "+obj.num);
+	
+     Classes_Objects tag=new Classes_Objects();
+     tag.name="Dhanu";
+     System.out.println(tag.name);
+	
+	}
+
+}

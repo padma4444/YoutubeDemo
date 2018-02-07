@@ -1,0 +1,17 @@
+package BasicProCode;
+
+import java.util.Scanner;
+
+public class GetUserInput {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+  Scanner scan =new Scanner(System.in);
+  System.out.println("Enter a Integret Value");
+  int a =scan.nextInt();
+  System.out.println("The integer value is ="+a);
+  double d=(double)a;
+  System.out.println(d);
+	}
+
+}

@@ -1,0 +1,13 @@
+package BasicProCode;
+
+public class ClassCon2 {
+
+	public static void main(java.lang.String[] args) {
+		// TODO Auto-generated method stub
+  ClassConstructor con=new ClassConstructor(20,30,40);
+  
+	}
+	
+
+
+}

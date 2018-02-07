@@ -1,0 +1,29 @@
+package Cucumber;
+
+public class FaceBookSignIn {
+
+	@Given("^Open the Facebook page with correct Url$")
+	public void open_the_Facebook_page_with_correct_Url() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^click sign Up Button$")
+	public void click_sign_Up_Button() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^fill all fields with correct data$")
+	public void fill_all_fields_with_correct_data() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^click sign In Button$")
+	public void click_sign_In_Button() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+}

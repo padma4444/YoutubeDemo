@@ -1,0 +1,22 @@
+package Practice;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxBinary;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class GmailLogin {
+	public static void main(String[] args) {
+		GmailLogin login=new GmailLogin();
+		login.InvokeBrowser();
+	}
+WebDriver driver;
+	public void InvokeBrowser()
+	{
+		//System.setProperty("", value)
+		driver=new FirefoxDriver();
+		driver.get("https://www.google.com/gmail/about/");
+		
+		
+	}
+	
+}

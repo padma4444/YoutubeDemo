@@ -1,0 +1,16 @@
+package BasicProCode;
+
+public class Method {
+
+	public static void main(java.lang.String[] args) {
+		// TODO Auto-generated method stub
+     MyFirstmethod(30,50);
+	}
+	
+	public static void MyFirstmethod(int x, int y)
+	{
+		int a=20;
+		System.out.println(a+" "+x+" "+y);
+	}
+
+}

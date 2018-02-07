@@ -1,0 +1,6 @@
+Feature: Check feacebook sign in fields
+
+Scenario: This is the Test
+Given Open the Facebook page with correct Url
+Then click sign Up Button 
+When fill all fields with different data

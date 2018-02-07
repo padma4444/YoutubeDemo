@@ -1,0 +1,29 @@
+package BasicProCode;
+
+import java.util.Scanner;
+
+public class SwichStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     Scanner scan=new Scanner(System.in);
+     System.out.println("Enter the value");
+     int a=scan.nextInt();
+     switch (a) {
+	case 34:
+	case 35:
+		System.out.println("It is ="+a);
+		break;
+	case 46:
+	case 45:
+		System.out.println("It is ="+a);
+        break;
+	case 24:
+	case 25:
+		System.out.println("It is ="+a);
+	default:
+		break;
+	}
+	}
+
+}
